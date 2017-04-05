@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <SeekBar
+        android:id="@+id/lightonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="67dp" 
+        android:max="60"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="112dp"
+        android:text="灯光将在0分钟后打开" />
+
+    <SeekBar
+        android:id="@+id/lightoffBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="147dp" 
+        android:max="60"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="193dp"
+        android:text="灯光将在0分钟后关闭" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="224dp"
+        android:layout_y="239dp"
+        android:text="发送" />
+
+</AbsoluteLayout>

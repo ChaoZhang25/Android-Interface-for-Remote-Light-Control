@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/button_mur_cold"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="120dp"
+        android:layout_y="180dp"
+        android:background="@drawable/cold"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_windy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_x="220dp"
+        android:layout_y="340dp"
+        android:background="@drawable/windy"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_dark"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="120dp"
+        android:layout_y="310dp"
+        android:background="@drawable/dark"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_noisy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_x="220dp"
+        android:layout_y="210dp"
+        android:background="@drawable/noisy"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_hot"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="20dp"
+        android:layout_y="180dp"
+        android:background="@drawable/hot"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_glare"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="20dp"
+        android:layout_y="310dp"
+        android:background="@drawable/glare"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_dry"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="20dp"
+        android:layout_y="50dp"
+        android:background="@drawable/dry" />
+
+    <ImageButton
+        android:id="@+id/button_mur_damp"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_x="120dp"
+        android:layout_y="50dp"
+        android:background="@drawable/damp"
+        android:gravity="center|center" />
+
+    <ImageButton
+        android:id="@+id/button_mur_stuffy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_x="220dp"
+        android:layout_y="80dp"
+        android:background="@drawable/stuffy"
+        android:gravity="center|center" />
+
+</AbsoluteLayout>

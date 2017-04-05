@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FrontActivity" 
+    android:background="#FFFFFF">
+    
+    <ImageButton
+        android:id="@+id/button_mur_dry"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dip"
+        android:layout_centerHorizontal="true"
+		android:background="@drawable/dry"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_hot"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_toLeftOf="@id/button_mur_dry"
+        android:layout_alignTop="@id/button_mur_dry"
+        android:layout_marginRight="10dip"
+        android:gravity="center|center"
+        android:background="@drawable/hot"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_glare"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_toRightOf="@id/button_mur_dry"
+        android:layout_alignTop="@id/button_mur_dry"
+        android:layout_marginLeft="10dip"
+        android:gravity="center|center"
+        android:background="@drawable/glare"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_damp"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/button_mur_dry"
+        android:layout_marginTop="15dip"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center"
+        android:background="@drawable/damp"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_cold"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_toLeftOf="@id/button_mur_damp"
+        android:layout_alignTop="@id/button_mur_damp"
+        android:layout_marginRight="10dip"
+        android:gravity="center|center"
+        android:background="@drawable/cold"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_dark"
+        android:layout_width="90dip"
+        android:layout_height="100dip"
+        android:layout_toRightOf="@id/button_mur_damp"
+        android:layout_alignTop="@id/button_mur_damp"
+        android:layout_marginLeft="10dip"
+        android:gravity="center|center"
+        android:background="@drawable/dark"/>
+    
+    <ImageButton
+        android:id="@+id/button_mur_stuffy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/button_mur_cold"
+        android:layout_alignLeft="@id/button_mur_cold"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center|center"
+        android:background="@drawable/stuffy" />
+    
+    <ImageButton
+        android:id="@+id/button_mur_noisy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/button_mur_damp"
+        android:layout_alignLeft="@id/button_mur_damp"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center|center"
+        android:background="@drawable/noisy" />
+    
+    <ImageButton
+        android:id="@+id/button_mur_windy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/button_mur_dark"
+        android:layout_alignLeft="@id/button_mur_dark"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center|center"
+        android:background="@drawable/windy" />
+
+</RelativeLayout>
